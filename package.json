@@ -1,0 +1,25 @@
+{
+  "name": "friki-dark-theme",
+  "displayName": "FrikiDark",
+  "description": "Un tema oscuro personalizado tipo 'Shades of Purple', hecho por Gato.",
+  "version": "1.0.0",
+  "publisher": "gato",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "FrikiDark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/FrikiDark-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tu-usuario/friki-dark-theme"
+  },
+  "license": "MIT"
+}

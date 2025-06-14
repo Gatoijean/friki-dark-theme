@@ -1,0 +1,65 @@
+{
+  "name": "FrikiDark",
+  "type": "dark",
+  "colors": {
+  "editor.background": "#1e1e3f",
+  "editor.foreground": "#ffffff",
+  "editorCursor.foreground": "#ffcc00",
+  "editor.lineHighlightBackground": "#2d2b55",
+  "editor.selectionBackground": "#444267",
+  "editor.inactiveSelectionBackground": "#33335580",
+  "editorIndentGuide.background1": "#3b3750",
+  "editorIndentGuide.activeBackground1": "#9e6ffe",
+  // Barra de pestañas
+  "tab.activeBackground": "#2d2b55",
+  "tab.inactiveBackground": "#1e1e3f",
+  "tab.activeForeground": "#ffffff",
+  "tab.inactiveForeground": "#8888aa",
+  "tab.border": "#1e1e3f",
+
+  // Barra lateral
+  "sideBar.background": "#1e1e3f",
+  "sideBar.foreground": "#ccccff",
+  "sideBarSectionHeader.background": "#2d2b55",
+  "sideBarTitle.foreground": "#ffffff",
+
+  // Barra de estado
+  "statusBar.background": "#2d2b55",
+  "statusBar.foreground": "#ffffff",
+  "statusBar.debuggingBackground": "#ff4081",
+  "statusBar.noFolderBackground": "#1e1e3f",
+
+  // Ventanas emergentes (hover, tooltips, etc.)
+  "editorHoverWidget.background": "#2d2b55",
+  "editorHoverWidget.foreground": "#ffffff",
+
+  // Panel de errores (PROBLEMAS, TERMINAL, SALIDA, CONSOLA)
+  "panel.background": "#1e1e3f",
+  "panel.border": "#2d2b55",
+  "panelTitle.activeForeground": "#ffffff",
+
+},
+  "tokenColors": [
+    {
+      "scope": ["keyword", "storage.type"],
+      "settings": { "foreground": "#df3079" }
+    },
+    {
+      "scope": ["string"],
+      "settings": { "foreground": "#7fffd4" }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": { "foreground": "#ffa500" }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": { "foreground": "#00bfff" }
+    },
+    {
+      "scope": ["comment"],
+      "settings": { "foreground": "#888888", "fontStyle": "italic" }
+    }
+  ]
+}
+// This is a custom dark theme for Visual Studio Code, inspired by the Shades of Purple theme.
