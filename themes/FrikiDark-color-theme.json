@@ -42,23 +42,23 @@
   "tokenColors": [
     {
       "scope": ["keyword", "storage.type"],
-      "settings": { "foreground": "#df3079" }
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "scope": ["string"],
-      "settings": { "foreground": "#7fffd4" }
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "scope": ["constant.numeric"],
-      "settings": { "foreground": "#ffa500" }
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "scope": ["entity.name.function", "support.function"],
-      "settings": { "foreground": "#00bfff" }
+      "settings": { "foreground": "#ffffff" }
     },
     {
       "scope": ["comment"],
-      "settings": { "foreground": "#888888", "fontStyle": "italic" }
+      "settings": { "foreground": "#ffffff", "fontStyle": "italic" }
     }
   ]
 }
